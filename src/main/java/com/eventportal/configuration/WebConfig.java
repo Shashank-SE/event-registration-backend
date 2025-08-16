@@ -13,7 +13,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:5173", "http://localhost:4173", "https://your-netlify-url.netlify.app")
+                        .allowedOrigins("http://localhost:5173", "http://localhost:4173", "https://event-register-site.netlify.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
         };
